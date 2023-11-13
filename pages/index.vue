@@ -3,7 +3,8 @@
 </script>
 <template>
     <portf class="portf"/>
-    <projects class="projects"/>
+    <projects class="projects"/><br>
+    <blog />
 </template>
 <style scoped>
     .portf {

@@ -1,5 +1,6 @@
 export default eventHandler(event => {
+    const postData = [{'title': 'OpenAI'}]
     return {
-        'information': 'posts api2.0'
+        'posts': postData
     }
 })
