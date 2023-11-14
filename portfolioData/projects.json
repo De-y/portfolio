@@ -5,24 +5,34 @@
             "name": "Konnect",
             "description": "Konnect is basically a toy operating system that incorporates privacy and security into a terminal-based operating system.",
             "technologies": ["Python"],
-            "image": "project1.png",
+            "image": "/projects/konnect.png",
             "url": "https://github.com/De-y/Konnect"
         },
         {
             "id": 2,
-            "name": "Project 2",
-            "description": "This is the second project",
-            "technologies": ["React", "Node.js", "MongoDB"],
-            "image": "project2.png",
-            "url": "https://example.com/project2"
+            "name": "avPass",
+            "description": "avPass was my attempt of making a centralized system that can link to other systems utilizing oAuth that I made in 20 hours.",
+            "technologies": ["Flask", "Prisma"],
+            "image": "/projects/avpass.png",
+            "url": "https://github.com/De-y/avPass"
         },
         {
             "id": 3,
-            "name": "Project 3",
-            "description": "This is the third project",
+            "name": "Sniperwolfed",
+            
+            "description": "MrBreast",
             "technologies": ["Python", "Django", "PostgreSQL"],
-            "image": "project3.png",
-            "url": "https://example.com/project3"
+            "image": "/projects/sniperwolfed.png",
+            "url": "https://salia.vercel.app/"
+        },
+        {
+            "id": 4,
+            "name": "Portfolio",
+            
+            "description": "My third top project would be the portfolio as I utilized Nuxt and then deployed it on Vercel, being with a blog and all the things.",
+            "technologies": ["Nuxt", "Node.js", "SQLite"],
+            "image": "/projects/portfolio.png",
+            "url": "https://github.com/De-y/portfolio"
         }
     ]
 }
