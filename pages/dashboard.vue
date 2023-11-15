@@ -1,8 +1,19 @@
 <script setup lang="tsx">
-    async function createPost(name: string, content: string, published: boolean) {
-        const post = 
+    try {
+        const results = await useFetch('/api/session', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: {
+                'authentication': useCookie('authentication').value
+            }
+        })
+    }
+    catch (error) {
+        console.log(error)
     }
 </script>
 <template>
-    
+    <h1>E</h1>
 </template>

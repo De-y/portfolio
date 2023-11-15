@@ -1,0 +1,17 @@
+{
+    "posts": {
+        "post1": {
+            "id": 1,
+            "title": "Post 1",
+            "body": "This is the body of post 1",
+            "image": "http://www.example.com/image1.jpg",
+            "timestamp": "1704321329"
+        },
+        "post2": {
+            "id": 2,
+            "title": "Post 2",
+            "image": "http://www.example.com/image2.jpg",
+            "timestamp": "2000000000"
+        }
+    }
+}

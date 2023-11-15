@@ -1,4 +1,8 @@
-<script setup lang="tsx">
+<template>
+    <h1>STOP!</h1>
+    <p>The login route is not yet implemented. Please check back later.</p>
+</template>
+<!-- <script setup lang="tsx">
     import { ref } from 'vue';
     import { SHA256 } from 'jscrypto';
     const password = ref('');
@@ -179,4 +183,4 @@
     margin-left: auto;
     margin-right: auto;
 }
-</style>
+</style> -->
