@@ -1,12 +1,14 @@
 <script setup lang="tsx">
-    const blogInfo = await useFetch('/api/posts')
+    // const blogInfo = await useFetch('/api/posts')
 </script>
 
 <template>
     <div class="blog">
         <h1>Blog</h1>
         <p>My bread & butter.</p>
-        <div class="blog-row">
+        <hr>
+        <h1>Viewable at <a href="https://github.com/de-y/blog">GitHub Repository</a>.</h1>
+        <!-- <div class="blog-row">
             <div v-for="posts in blogInfo.data.value?.posts.posts" class="d">
                 <div class="blog-content" :style="{ backgroundImage: `url(${posts.image})` }">
                     <h1>{{ posts['title'] }}</h1>
@@ -17,6 +19,7 @@
     </div>
     <div v-if="blogInfo.data.value?.posts.length === 0" class="blog-error">
         <h1>There are no posts yet.</h1>
+    </div> -->
     </div>
 </template>
 <style scoped>
@@ -25,6 +28,14 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
+    }
+    .blog a {
+        text-decoration: none;
+        color: lime;
+        transition: 500ms;
+    }
+    .blog a:hover {
+        color: greenyellow;
     }
     .d {
         width: max-content;
